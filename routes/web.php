@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductoController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 
@@ -42,3 +43,5 @@ Route::get('/tercero',function() {
         ,'total'=>$total
     ]);
 });
+
+Route::get("/productolistar",[ProductoController::class,'listar']);
