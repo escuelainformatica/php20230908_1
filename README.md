@@ -71,3 +71,7 @@ Route::get("/productolistar",[ProductoController::class,'listar']); // indicar l
 ```
 
 > Nota: revisar que se agregue el use: use App\Http\Controllers\ProductoController;
+
+# ejercicio 2
+
+Modificar el codigo anterior para usar controladores. Use el nombre de controlador y nombre de funciones que quiera
