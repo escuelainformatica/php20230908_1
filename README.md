@@ -17,3 +17,18 @@ php artisan serve
 
 Y abrir la pagina http://127.0.0.1:8000/ para ver si funciona
 
+## Y se puede descargar el proyecto
+Si no tiene generada la carpeta vendor/ ejecute lo siguiente en la terminal
+
+```
+composer install
+```
+
+# Ejercicio 1
+
+* Cree un proyecto laravel nuevo.
+* Abralo en visual studio code
+* Y agregue una ruta llamada "/clientes" que muestre una lista de clientes (rut,nombre,apellido)
+* Agregue otra ruta llamada "/compras" que muestra una tabla de compras (producto,precio)
+* Agregue otra ruta llamada "/totales" que muestra dos variables: $total=100, $iva=19.5
+
