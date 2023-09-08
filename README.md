@@ -32,3 +32,5 @@ composer install
 * Agregue otra ruta llamada "/compras" que muestra una tabla de compras (producto,precio)
 * Agregue otra ruta llamada "/totales" que muestra dos variables: $total=100, $iva=19.5
 
+> Nota: no olvide crear las vistas en la carpeta /resources/views y las vistas tienen que tener extension .blade.php
+
